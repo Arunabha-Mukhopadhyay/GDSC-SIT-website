@@ -35,10 +35,10 @@ html, body {
 
 
 #page1 {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   position: relative;
-  background-color: #EFEAE3;
+  background-color: #383636;
 }
 #background-video {
   position: absolute;
@@ -64,11 +64,11 @@ html, body {
   display: flex;
   /* background-color: red; */
   align-items: center;
-  gap: 1.3%;
+  gap: 1%;
   
 }
 #emoji h2{
-  color: whitesmoke;
+  color: rgb(232, 232, 232);
   text-shadow: 2px 2px 10px #d9ff00;
 }
 #emoji img{
@@ -94,10 +94,11 @@ nav {
 }
 #nav-part2 h4 {
   padding: 10px 20px;
-  border: 2px solid #ffffffe5;
+  border: 1.3px solid #272727e5;
+  box-shadow: 2px 2px 10px rgb(171, 170, 170);
   border-radius: 50px;
   font-weight: 800;
-  color: #f5f4f4e7;
+  color: #e4e4e4e7;
   transition: all ease 0.4s;
   position: relative;
   font-size: 18px;
@@ -119,7 +120,7 @@ nav {
   border-radius: 50px;
 }
 #nav-part2 h4 a {
-  color: #e9e8e8;
+  color: #dfdfdf;
   text-decoration: none;
   position: relative;
   z-index: 9;
@@ -130,7 +131,7 @@ nav {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #ff1500;
+  background-color: #ca2111;
   left: 0;
   border-radius: 50%;
   bottom: -100%;
@@ -152,7 +153,7 @@ nav {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #00ff44;
+  background-color: #10c637;
   left: 0;
   border-radius: 50%;
   bottom: -100%;
@@ -178,12 +179,6 @@ nav h3 {
 }
 
 
-
-
-
-
-
-
 #center-text {
   display: flex;
   align-items: center;
@@ -198,11 +193,12 @@ nav h3 {
 #center-text p {
   font-size: 3.4vw;
   font-weight: 800;
-  color: #ffffff;
+  color: #c6c4c4;
 }
 #center-text #texty-gdsc {
   font-size: 6vw;
   margin-left: 1.7%;
+  text-shadow:2px 2px 12px #8e8e8e;
   transition: all ease 1s;
 }
 #center-text #texty-gdsc:hover{
@@ -217,6 +213,8 @@ nav h3 {
   border-radius: 10%;
   margin-left: 65%;
   margin-top: -30%;
+  border: 3px solid rgb(11, 115, 207);
+  box-shadow: 2px 2px 10px rgb(151, 151, 151);
   transition: all ease 1s;
 }
 #addd:hover{
@@ -235,7 +233,7 @@ nav h3 {
   width: 100%;
   padding: 3vw 0;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #131212;
 }
 #moving-text{
   overflow-x: auto;
@@ -254,8 +252,8 @@ nav h3 {
 }
 #moving-text h1{
   font-size:7.7vw;
-  color: rgb(65, 63, 63);
-  text-shadow: 2px 2px 10px rgb(58, 58, 57); 
+  color: rgb(205, 204, 204);
+  text-shadow: 2px 2px 10px rgb(185, 185, 185); 
   display: inline-block;
 }
 #gola{
@@ -289,7 +287,7 @@ p {
   margin-left: 10%;
   margin-top: 3%;
   display: inline-block;
-  box-shadow: 8px -10px 9px rgba(165, 163, 163, 0.3);
+  box-shadow: 8px -10px 9px rgba(255, 255, 255, 0.3);
   transition: all ease 0.5s;
 }
 .gdsc-box:hover {
@@ -335,7 +333,7 @@ p {
 #page3{
   min-height: 80vh;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #424242;
   position: relative;
 }
 #upper{
@@ -355,11 +353,11 @@ p {
 }
 #upper-text h1{
   font-size: 2.5vw;
-  color: #000;
+  color: #000000;
 }
 #upper-text h3{
   font-size: 1.7vw;
-  color: #5b5959;
+  color: #eaeaea;
 }
 #upper img{
   height: 60%;
@@ -369,13 +367,13 @@ p {
 }
 
 #page3 #gool {
-  height: 50vh;
-  width: 50vh;
+  height: 20vh;
+  width: 20vh;
   border-radius: 50%;
   position: absolute;
   background: linear-gradient(to top right, #005ff7, #ff1500, #ffc003, #00ff44);
-  top: 20%;
-  left: 30%;
+  top: 35%;
+  left: 40%;
   filter: blur(20px);
   animation-name: gooey;
   animation-duration: 6s;
@@ -400,9 +398,9 @@ p {
 #page4{
   min-height: 50vh;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
   position: relative;
-  background: #cfcfcf;
+  
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -412,10 +410,12 @@ p {
 #page4 h1{
   font-size: 3vw;
   margin-left: 33%;
+  color: whitesmoke;
   text-decoration:underline;
 }
 .swiper {
   width: 100%;
+  
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -423,6 +423,7 @@ p {
 .swiper-slide {
   box-shadow: 2px 2px 10px rgb(93, 92, 92);
   background-position: center;
+  background: #e8e8e8;
   background-size: cover;
   border-radius: 5%;
   padding: 1vw 1.2vw;
@@ -431,7 +432,7 @@ p {
 }
 .swiper-slide  h2{
   font-size: 2vw;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   margin-bottom: 1%;
 }
 .swiper-slide h3{
@@ -439,18 +440,19 @@ p {
   padding: 1vw .3vw;
 }
 
+
 .swiper-slide:nth-child(1) {
-  background-color: #005ff7;
+  background-color: #134dab;
 }
 .swiper-slide:nth-child(2) {
-  background-color: #ea1a13;
+  background-color: #ba1610;
 }
 .swiper-slide:nth-child(3) {
-  background-color: #ffe100;
+  background-color: #e4cf29;
 }
 
 .swiper-slide:nth-child(4) {
-  background-color: #18e41f;
+  background-color: #12af17;
 }
 
 
@@ -543,7 +545,7 @@ p {
     padding: 1vw 3vw;
     padding-bottom: 50vw;
     padding-right: 16vw;
-    margin-top: 25%;
+    margin-top: 15%;
     flex-direction: column-reverse;
     position: relative;
     z-index: 9;
@@ -555,7 +557,7 @@ p {
   #addd{
    margin-right: 30%;
    position: absolute;
-   margin-top: -40%;
+   margin-top: -45%;
    margin-left: 30%;
    height: 30vw;
    width: 47vw;
@@ -574,7 +576,7 @@ p {
   #page2 {
     min-height: 80vh;
     width: 100vw;
-    background-color: #f7f7f7;
+    background-color: #222222;
     padding: 8vw 0;
     display: flex;
     flex-direction: column;
@@ -620,7 +622,7 @@ p {
     margin-right: 3%;
     margin-top: 4%;
     /* display: inline-block; */
-    box-shadow: 8px -10px 9px rgba(165, 163, 163, 0.3);
+    box-shadow: 8px -10px 9px rgba(208, 207, 207, 0.3);
     transition: all ease 0.5s;
   }
   .gdsc-image {
@@ -666,7 +668,7 @@ p {
   }
   #upper-text h3{
     font-size: 3vw;
-    color: #5b5959;
+    color: #e3e3e3;
   }
   #upper img{
     height: 42%;
@@ -676,13 +678,13 @@ p {
   }
 
   #page3 #gool {
-    height: 50vh;
-    width: 50vh;
+    height: 25vh;
+    width: 25vh;
     border-radius: 50%;
     position: absolute;
     background: linear-gradient(to top right, #005ff7, #ff1500, #ffc003, #00ff44);
-    top: 14%;
-    left: 20%;
+    top: 34%;
+    left: 40%;
     filter: blur(20px);
     animation-name: gooey;
     animation-duration: 6s;
@@ -707,7 +709,11 @@ p {
     height: 50%;
     width: 100%;
   }
-
+  #page4 h1{
+    font-size: 4.5vw;
+    margin-bottom: 5%;
+    
+  }
   .swiper {
     width: 100vw;
     padding-top: 10px;
@@ -733,17 +739,17 @@ p {
   }
   
   .swiper-slide:nth-child(1) {
-    background-color: #005ff7;
+    background-color: #134dab;
   }
   .swiper-slide:nth-child(2) {
-    background-color: #ea1a13;
+    background-color: #ba1610;
   }
   .swiper-slide:nth-child(3) {
-    background-color: #ffe100;
+    background-color: #e4cf29;
   }
   
   .swiper-slide:nth-child(4) {
-    background-color: #18e41f;
+    background-color: #12af17;
   }
 
 
