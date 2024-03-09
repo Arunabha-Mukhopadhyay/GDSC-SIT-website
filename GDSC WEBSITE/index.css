@@ -94,7 +94,7 @@ nav {
 }
 #nav-part2 h4 {
   padding: 10px 20px;
-  border: 1.3px solid #272727e5;
+  border: 1.3px solid #a09e9ee5;
   box-shadow: 2px 2px 10px rgb(171, 170, 170);
   border-radius: 50px;
   font-weight: 800;
@@ -233,7 +233,7 @@ nav h3 {
   width: 100%;
   padding: 3vw 0;
   position: relative;
-  background-color: #131212;
+  background-color: #2a2a2a;
 }
 #moving-text{
   overflow-x: auto;
@@ -333,7 +333,7 @@ p {
 #page3{
   min-height: 80vh;
   width: 100%;
-  background-color: #424242;
+  background-color: #4e4a4a;
   position: relative;
 }
 #upper{
@@ -353,11 +353,11 @@ p {
 }
 #upper-text h1{
   font-size: 2.5vw;
-  color: #000000;
+  color: #ffffff;
 }
 #upper-text h3{
   font-size: 1.7vw;
-  color: #eaeaea;
+  color: #bbbbbb;
 }
 #upper img{
   height: 60%;
@@ -384,7 +384,7 @@ p {
 @keyframes gooey {
   from {
     filter: blur(20px);
-    transform: translate(3%, -5%) skew(0);
+    transform: translate(5%, -5%) skew(0);
   }
 
   to {
@@ -421,9 +421,9 @@ p {
 }
 
 .swiper-slide {
-  box-shadow: 2px 2px 10px rgb(93, 92, 92);
+  
   background-position: center;
-  background: #e8e8e8;
+  background: #ada0a0ea;
   background-size: cover;
   border-radius: 5%;
   padding: 1vw 1.2vw;
@@ -442,17 +442,17 @@ p {
 
 
 .swiper-slide:nth-child(1) {
-  background-color: #134dab;
+  box-shadow: 2px 2px 10px #134dab;
 }
 .swiper-slide:nth-child(2) {
-  background-color: #ba1610;
+  box-shadow: 2px 2px 10px #ba1610;
 }
 .swiper-slide:nth-child(3) {
-  background-color: #e4cf29;
+  box-shadow: 2px 2px 10px #e4cf29;
 }
 
 .swiper-slide:nth-child(4) {
-  background-color: #12af17;
+  box-shadow: 2px 2px 10px #12af17;
 }
 
 
@@ -739,17 +739,17 @@ p {
   }
   
   .swiper-slide:nth-child(1) {
-    background-color: #134dab;
+    box-shadow: 2px 2px 10px #134dab;
   }
   .swiper-slide:nth-child(2) {
-    background-color: #ba1610;
+    box-shadow: 2px 2px 10px #ba1610;
   }
   .swiper-slide:nth-child(3) {
-    background-color: #e4cf29;
+    box-shadow: 2px 2px 10px #e4cf29;
   }
   
   .swiper-slide:nth-child(4) {
-    background-color: #12af17;
+    box-shadow: 2px 2px 10px #12af17;
   }
 
 
