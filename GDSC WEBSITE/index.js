@@ -29,24 +29,24 @@ function timeline1(){
 }
 timeline1();
 
-tl.from("#loader h1",{
-  x:3,
-  opacity:0,
-  duration:1,
-  stagger:0.1
-})
-tl.to("#loader h1",{
-  opacity:0,
-  x:-20,
-  stagger:0.1,
-  duration:1
-})
-tl.to("#loader",{
-  opacity:0,
-  display:"none",
+// tl.from("#loader h1",{
+//   x:3,
+//   opacity:0,
+//   duration:1,
+//   stagger:0.1
+// })
+// tl.to("#loader h1",{
+//   opacity:0,
+//   x:-20,
+//   stagger:0.1,
+//   duration:1
+// })
+// tl.to("#loader",{
+//   opacity:0,
+//   display:"none",
   
-});
-setTimeout(timeline1, 4200);
+// });
+// setTimeout(timeline1, 4200);
 
 
 
